@@ -1,17 +1,16 @@
 <resources>
 
     <string name="app_name">Stay Fit</string>
-    <string name="ticker_text_notification">Workout Time</string>
-    <string name="content_text_notification">Time to do some exercises</string>
-    <string name="hello_world">Hello world!</string>
+
+
     <string name="activity_start_name">WORKOUT</string>
     <string name="activity_exercises_name">EXERCISES</string>
     <string name="activity_settings_name">SETTINGS</string>
     <string name="activity_calendar_name">CALENDAR</string>
-    <string name="activity_playsimpleapps_name">PLAYSIMPLE APPS</string>
+
     <string name="activity_chosen_exercise_name">EXERCISE</string>
     <string name="activity_resttime_name">CHANGE REST TIME</string>
-    <string name="activity_setreminder_name">SET REMINDER</string>
+
     <string name="activity_difficulty_name">CHANGE DIFFICULTY</string>
     <string name="activity_finish_name">WORKOUT COMPLETED</string>
     <string name="action_settings">Settings</string>
@@ -20,13 +19,13 @@
     <string name="button_calendar_text">Calendar</string>
     <string name="button_apps_text">Apps</string>
     <string name="button_exercises_text">Exercises</string>
-    <string name="all_exercises_text">All Exercises</string>
+
     <string name="settings_text">Settings</string>
-    <string name="statistics_text">Statistics</string>
+
     <string name="chosen_exercise_text">Chosen Exercise</string>
     <string name="exercise_length_text">Exercise Length</string>
     <string name="rest_time_text">Rest Time</string>
-    <string name="set_reminder_text">Set Reminder</string>
+
     <string name="finish_exercise_text">Congratulations You are done with today exercise</string>
     <string name="done_text">Done</string>
     <string name="skip_text">Skip</string>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Stay Fit</string>
+
+
+    <string name="activity_start_name">مشقت</string>
+    <string name="activity_exercises_name">مشقیں</string>
+    <string name="activity_settings_name">ترتیبات</string>
+    <string name="activity_calendar_name">کیلنڈر</string>
+
+    <string name="activity_chosen_exercise_name">مشقت</string>
+    <string name="activity_resttime_name">آرام کا وقت تبدیل کریں</string>
+
+    <string name="activity_difficulty_name">مختلف بدلیں</string>
+    <string name="activity_finish_name">ورک آؤٹ مکمل</string>
+    <string name="action_settings">ترتیبات</string>
+    <string name="button_settings_text">ترتیبات</string>
+    <string name="button_start_text">شروع کریں</string>
+    <string name="button_calendar_text">کیلنڈر</string>
+
+    <string name="button_exercises_text">مشقیں</string>
+
+    <string name="settings_text">ترتیبات</string>
+
+    <string name="chosen_exercise_text">انتخاب شدہ ورزش</string>
+    <string name="exercise_length_text"> ورزش کی لمبائی </string>
+    <string name="rest_time_text">آرام کا وقت</string>
+
+    <string name="finish_exercise_text">مبارک ہو آپ آج کی ورزش کے ساتھ کر رہے ہیں</string>
+    <string name="done_text">ہو گیا</string>
+    <string name="skip_text">چھوڑ دو</string>
+    <string name="save_text">محفوظ کریں</string>
+    <string name="cancel_text">منسوخ کریں</string>
+    <string name="menu_text">مینو</string>
+    <string name="easy">آسان</string>
+    <string name="medium">میڈیم</string>
+    <string name="hard">سخت</string>
+    <string name="green_cell_meaning">ورزش ہو گئی</string>
+    <string name="dot_meaning">آج کی تاریخ</string>
+
+
+
+
+
+</resources>
