@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/lightblue"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:gravity="center"
+        android:id="@id/topLine"
+        android:background="@drawable/blue_line"
+        android:layout_width="fill_parent"
+        android:layout_height="5.0dip"
+        android:layout_alignParentTop="true" />
+    <RadioGroup
+        android:orientation="vertical"
+        android:id="@id/radioGroupDifficulty"
+        android:padding="10.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:textColor="@color/black"
+            android:id="@id/radio_easy"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/easy"
+            style="@style/RadioButtonText" />
+        <RadioButton
+            android:textColor="@color/black"
+            android:id="@id/radio_medium"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/medium"
+            style="@style/RadioButtonText" />
+        <RadioButton
+            android:textColor="@color/black"
+            android:id="@id/radio_hard"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hard"
+            style="@style/RadioButtonText" />
+    </RadioGroup>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/linearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginBottom="10.0dip"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@id/buttonSave"
+            android:background="@drawable/button_blue_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2.0dip"
+            android:text="@string/save_text"
+            android:layout_weight="1.0"
+            android:onClick="saveDifficulty"
+            android:layout_marginEnd="2.0dip"
+            style="@style/ButtonText" />
+        <Button
+            android:id="@id/buttonCancel"
+            android:background="@drawable/button_blue_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2.0dip"
+            android:layout_marginLeft="2.0dip"
+            android:text="@string/cancel_text"
+            android:layout_weight="1.0"
+            android:onClick="cancelDifficulty"
+            android:layout_marginStart="2.0dip"
+            style="@style/ButtonText" />
+    </LinearLayout>
+</RelativeLayout>

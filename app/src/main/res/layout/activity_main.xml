@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/lightblue"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:gravity="center"
+        android:id="@id/topLine"
+        android:background="@drawable/blue_line"
+        android:layout_width="fill_parent"
+        android:layout_height="5.0dip"
+        android:layout_alignParentTop="true" />
+
+
+    <ImageView
+        android:id="@id/imageViewDailyWorkout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dailyworkout"
+        android:layout_above="@id/btnStart"
+        android:layout_below="@id/topLine"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <Button
+        android:textColor="@color/red"
+        android:gravity="center"
+        android:id="@id/btnStart"
+        android:background="@drawable/button_circle_red_selector"
+        android:layout_width="120.0sp"
+        android:layout_height="120.0sp"
+        android:text="@string/button_start_text"
+        android:layout_centerInParent="true"
+        android:onClick="startTrainingActivity"
+        style="@style/CircleButtonText" />
+
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@id/linearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginBottom="10.0dip"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout android:gravity="center"
+            android:orientation="horizontal"
+            android:id="@id/linearLayoutButtons"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10.0dip">
+
+            <Button android:id="@id/btnSettings"
+                android:background="@drawable/button_blue_selector"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5.0dip"
+                android:text="@string/settings_text"
+                android:layout_weight="1.0"
+                android:onClick="settingsActivity"
+                android:layout_marginStart="5.0dip"
+                style="@style/ButtonText" />
+
+            <Button android:id="@id/btnCalendar"
+                android:background="@drawable/button_blue_selector"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5.0dip"
+                android:text="@string/button_calendar_text"
+                android:layout_weight="1.0"
+                android:onClick="calendarActivity"
+                android:layout_marginStart="5.0dip"
+                style="@style/ButtonText" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

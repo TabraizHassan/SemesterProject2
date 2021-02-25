@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/lightblue"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:gravity="center"
+        android:id="@id/txtExerciseName"
+        android:background="@drawable/blue_line"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        style="@style/NavigationText" />
+    <ProgressBar
+        android:id="@id/progressBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginTop="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_below="@id/txtExerciseName"
+        android:layout_centerInParent="true"
+        style="@android:style/Widget.ProgressBar.Horizontal" />
+    <TextView
+        android:id="@id/txtExerciseDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:layout_below="@id/progressBar"
+        android:layout_centerHorizontal="true"
+        style="@style/ExerciseNumberText" />
+    <RelativeLayout
+        android:id="@id/rlTextImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:layout_marginBottom="10.0dip"
+        android:layout_above="@id/btnDone"
+        android:layout_below="@id/txtExerciseDetails"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:id="@id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <Button
+        android:id="@id/btnDone"
+        android:background="@drawable/button_blue_selector"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginBottom="10.0dip"
+        android:text="@string/done_text"
+        android:layout_alignParentBottom="true"
+        android:onClick="done"
+        style="@style/ButtonText" />
+    <Button
+        android:id="@id/btnSkip"
+        android:background="@drawable/button_blue_selector"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginBottom="10.0dip"
+        android:text="@string/skip_text"
+        android:layout_alignParentBottom="true"
+        android:onClick="skipRestTime"
+        style="@style/ButtonText" />
+    <TextView android:gravity="center"
+        android:id="@id/textViewCounter"
+        android:background="@drawable/edittext"
+        android:visibility="gone"
+        android:layout_width="130.0dip"
+        android:layout_height="130.0dip"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        style="@style/TextSeconds" />
+</RelativeLayout>

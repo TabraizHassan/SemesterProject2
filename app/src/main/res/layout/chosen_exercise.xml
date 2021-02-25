@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/lightblue"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:gravity="center"
+        android:id="@id/textViewExerciseName"
+        android:background="@drawable/blue_line"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        style="@style/NavigationText" />
+    <RelativeLayout
+        android:id="@id/rlTextImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:layout_below="@id/textViewExerciseName"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:id="@id/imageViewExercise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/jumpingjack"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>
