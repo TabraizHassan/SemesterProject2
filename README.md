@@ -61,7 +61,7 @@ Testing
 Unit testing and app testing is also implemented in the project. ExampleInstrumentedTest is the android test class which uses assertsEqual to load and test app package. MainActivity and ExerciseStartActivity also is used for testing by coding and running the app.
 Conclusion
 
-Slim Fit is a very useful app for daily workout fitness at home without requirement of any fitness equipment. The design principle are very simple and basic  having database management , list views, drawable resources and animation images to guide a user during exercise. The design of the app is simple and easy to use by the user. Language support for Urdu language helps user who are unable to understand English language.  
+Stay Fit is a very useful app for daily workout fitness at home without requirement of any fitness equipment. The design principle are very simple and basic  having database management , list views, drawable resources and animation images to guide a user during exercise. The design of the app is simple and easy to use by the user. Language support for Urdu language helps user who are unable to understand English language.  
 
 
 
